@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#back{
+    
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    /* border: 2px solid black; */
+    z-index: 100%;
+}
+#back{
+    
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    /* border: 2px solid black; */
+    z-index: 100%;
+}
+@media screen and (max-width: 475px) {
+#back{
+    margin-top: 300px;
+    width: 100%;
+    /* height: 10vh; */
+    position: relative;
+    /* border: 2px solid black; */
+    z-index: 100%;
+}}
+#inner{
+    position:absolute ;
+    margin-top: -470px;
+    padding-left: 20px;
+    
+}
+@media screen and (max-width: 475px) {
+#inner{
+    /* transform: translateX(-150px); */
+    margin-left: -130px;
+    width: 35em;
+    position:absolute ;
+    transform: translateY(-360px);
+    padding-left: 20px;
+    justify-content: center;
+    
+}}
+form{
+    justify-content: center;
+}
+#body{
+    background-color:#ffffff73;
+}
+#gra{
+    text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+@media screen and (max-width: 475px) {
+#gra{
+    text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size: 1em;
+    justify-content: center;
+}}
+#input{
+    width: 250px;
+}
+#but{
+    width: 100px;
+}
+#black{
+    width: 100vw;
+    height: 99vh;
+}
